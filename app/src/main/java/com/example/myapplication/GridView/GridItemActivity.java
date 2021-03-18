@@ -29,9 +29,9 @@ public class GridItemActivity extends AppCompatActivity {
     ImageView image;
     TextView name;
     TextView author;
-    String url = "/eBooks/";
+    String url = "/morariu05/DAM/blob/master/";
     String numeFisier_pdf;
-    String host = "http://192.168.1.6:8080";
+    String host = "https://github.com";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,12 +58,12 @@ public class GridItemActivity extends AppCompatActivity {
     public void downloadPDF(View v)
     {
         new DownloadFile().execute(url, numeFisier_pdf);
-
+       // new DownloadFile().execute("https://github.com/morariu05/DAM/blob/master/Sarah.pdf", "Sarah.pdf");
     }
 
     public void viewPDF(View v)
     {
-        File pdfFile = new File(Environment.getExternalStorageDirectory() + "http://192.168.1.6:8080" + "/eBooks/Sarah.pdf");  // -> filename = maven.pdf
+        File pdfFile = new File(Environment.getExternalStorageDirectory() + "https://github.com/morariu05/DAM/blob/master/" + "Sarah.pdf");  // -> filename = maven.pdf
         Uri path = Uri.fromFile(pdfFile);
         Intent pdfIntent = new Intent(Intent.ACTION_VIEW);
         pdfIntent.setDataAndType(path, "application/pdf");
@@ -93,7 +93,7 @@ public class GridItemActivity extends AppCompatActivity {
 // ->five-point-someone-chetan-bhagat_ebook.pdf
             //String extStorageDirectory = Environment.getExternalStorageDirectory().toString();
 
-            String extStorageDirectory = Environment.getExternalStorageDirectory()+"/Downloads/";
+            String extStorageDirectory = Environment.getExternalStorageDirectory().toString();
             File folder = new File(extStorageDirectory, "DOWNLOAD_DIRECTORY");
             folder.mkdir();
 
