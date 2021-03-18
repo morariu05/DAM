@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="apple">Apple</string>
+
+    <string name="description_Sarah">\t\t Paris, iulie 1942: Sarah, o fetita evreica in varsta de zece ani, este arestata in toiul noptii, impreuna cu parintii ei, de politia franceza, dar nu inainte de a-si incuia fratele in ascunzatoarea lor secreta, convinsa fiind ca se va intoarce dupa numai cateva ore pentru a-l elibera. \n\n
+        \t\tParis, mai 2002: Julia, o jurnalista americana, stabilita de multi ani la Paris si maritata cu un francez, trebuie sa scrie un articol despre razia de la Vel’ d’Hiv, cu ocazia comemorarii a saizeci de ani de la acest eveniment de trista amintire in istoria Frantei. In timpul investigatiei sale, Julia descopera intamplator o serie de secrete de familie adanc ingropate, care o leaga de Sarah, si simte nevoia de a reconstitui destinul tragic al fetei. Pe masura ce se adanceste in trecutul ei, lucrurile pe care le afla o tulbura si o fac sa-si puna intrebari cu privire la propria existenta.\n\n
+        \t\tSe numea Sarah este povestea induiosatoare a doua familii unite de un secret teribil, dar si o tulburatoare pagina de istorie: Tatiana de Rosnay descrie o intamplare reala din Franta aflata sub ocupatie si rupe tacerea care inconjoara un subiect dureros, uneori chiar tabu, din istoria francezilor.\n\n\n
+        \t\t<i> „O lectura tulburatoare... O carte care-ti merge la suflet inca de la primul capitol, iar scenele si personajele descrise iti raman in minte mult timp dupa ce ai terminat de citit.“    -     <b> Publishers Weekly </b></i>   </string>
+
+</resources>
