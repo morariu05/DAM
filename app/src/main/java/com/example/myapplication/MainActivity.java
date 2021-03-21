@@ -11,7 +11,13 @@ import com.example.myapplication.GridView.CourseModal;
 import com.example.myapplication.GridView.GridItemActivity;
 import com.example.myapplication.Users.Autentificare;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
@@ -21,6 +27,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.GridView;
@@ -31,10 +38,15 @@ import android.widget.Toast;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity{
 
     GridView gridView;
+    DatabaseReference databaseReference;
+    List<String> description_list;
+    ArrayAdapter<String> arrayAdapter;
+    Book book1;
 
     String[] bookAuthor = {"Tatiana de Rosnay", "John Boyne", "Markus Zusak", " Eva Schloss", "Wladyslaw Szpilman", "Joel C. Rosenberg", "Heather Morris", "Antonio G. Iturbe", " "};
     String[] bookNames = {"Se numea Sarah","Băiatul cu pijamale în dungi","Hoțul de cărți","Viața după Auschwitz","Pianistul","Evadare de la Auschwitz","Tatuatorul de la Auschwitz","Bibliotecara de la Auschwitz","Jurnalul Annei Frank"};
@@ -44,6 +56,7 @@ public class MainActivity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -52,17 +65,39 @@ public class MainActivity extends AppCompatActivity{
        CustomAdapter customAdapter = new CustomAdapter();
        gridView.setAdapter(customAdapter);
 
-       gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-           @Override
-           public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-               Intent intent = new Intent(getApplicationContext(), GridItemActivity.class);
-               intent.putExtra("image", bookImages[position]);
-               intent.putExtra("name", bookNames[position]);
-               intent.putExtra("author", bookAuthor[position]);
-               startActivity(intent);
+       databaseReference = FirebaseDatabase.getInstance().getReference("eBook");
+       book1 = new Book();
+       description_list = new ArrayList<>();
 
-           }
-       });
+       arrayAdapter = new ArrayAdapter<>(this, R.layout.card_item, R.id.description_txt, bookNames);
+
+        databaseReference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                for (DataSnapshot d : snapshot.getChildren()) {
+                    book1 = d.getValue(Book.class);
+                    description_list.add(book1.getDescriere());
+                }
+
+                gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+                        Intent intent = new Intent(getApplicationContext(), GridItemActivity.class);
+                        intent.putExtra("image", bookImages[position]);
+                        intent.putExtra("name", bookNames[position]);
+                        intent.putExtra("author", bookAuthor[position]);
+                        String p = description_list.get(position);
+                        intent.putExtra("description", p);
+                        startActivity(intent);
+                    }
+                });
+            }
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+
 
 
         ArrayList<CourseModal> courseModelArrayList = new ArrayList<CourseModal>();

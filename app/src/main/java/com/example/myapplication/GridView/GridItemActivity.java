@@ -16,7 +16,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.myapplication.FileDownloader;
-import com.example.myapplication.MainActivity;
 import com.example.myapplication.R;
 
 import java.io.File;
@@ -29,6 +28,7 @@ public class GridItemActivity extends AppCompatActivity {
     ImageView image;
     TextView name;
     TextView author;
+    TextView description;
     String url = "/morariu05/DAM/blob/master/";
     String numeFisier_pdf;
     String host = "https://github.com";
@@ -41,19 +41,25 @@ public class GridItemActivity extends AppCompatActivity {
         image = findViewById(R.id.imageView);
         name = findViewById(R.id.griddata);
         author = findViewById(R.id.bookAuthor);
+        description = findViewById(R.id.description_txt);
 
         Intent intent = getIntent();
-        image.setImageResource(intent.getIntExtra("image",0));
+        image.setImageResource(intent.getIntExtra("image", 0));
         name.setText(intent.getStringExtra("name"));
         author.setText(intent.getStringExtra("author"));
+        description.setText((intent.getStringExtra("description")));
 
         pDialog = new ProgressDialog(this);
         pDialog.setMessage("Please wait...");
         pDialog.setCancelable(false);
         numeFisier_pdf = name.toString() + ".pdf";
         url = host + url + numeFisier_pdf;
-    }
 
+        // descriere carte
+
+
+
+    }
 
     public void downloadPDF(View v)
     {
