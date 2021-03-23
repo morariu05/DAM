@@ -36,6 +36,10 @@
         "source": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_a91.jpg.flat",
+        "source": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\src\\main\\res\\drawable\\a91.jpg"
+    },
+    {
         "merged": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },

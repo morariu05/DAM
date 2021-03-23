@@ -6,7 +6,9 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.MotionEvent;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.myapplication.R;
@@ -16,6 +18,8 @@ import com.github.barteksc.pdfviewer.listener.OnPageChangeListener;
 import com.github.barteksc.pdfviewer.listener.OnPageErrorListener;
 import com.github.barteksc.pdfviewer.listener.OnRenderListener;
 import com.github.barteksc.pdfviewer.listener.OnTapListener;
+
+// Add PDF File to assets folder
 
 public class ViewActivity extends AppCompatActivity {
 
@@ -31,11 +35,14 @@ public class ViewActivity extends AppCompatActivity {
         if(getIntent() != null)
         {
             String viewType = getIntent().getStringExtra("ViewType");
+            String pdf_filename = getIntent().getStringExtra("b_name");
+            Log.d("~~~~~~~~~~~~~~~~~~~~`", pdf_filename);
+
             if(viewType != null || !TextUtils.isEmpty(viewType))
             {
                 if(viewType.equals("assets"))
                 {
-                    pdfView.fromAsset("SeNumeaSarah.pdf")
+                    pdfView.fromAsset(pdf_filename)
                             .password(null) //if have password
                             .defaultPage(0) // Open default page
                             .enableSwipe(true)
@@ -81,7 +88,6 @@ public class ViewActivity extends AppCompatActivity {
                             .invalidPageColor(Color.WHITE)
                             .load();
                 }
-
             }
         }
     }

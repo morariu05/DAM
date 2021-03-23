@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -41,13 +42,12 @@ public class GridItemActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 Intent intent = new Intent(GridItemActivity.this, ViewActivity.class);
+                String pdf_filename =  name.getText().toString().trim() + ".pdf";
                 intent.putExtra("ViewType", "assets");
+                intent.putExtra("b_name", pdf_filename);
                 startActivity(intent);
+                Log.d("n****************", pdf_filename);
             }
         });
-
     }
-
-
-
 }

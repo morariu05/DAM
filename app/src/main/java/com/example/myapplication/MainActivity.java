@@ -41,9 +41,9 @@ public class MainActivity extends AppCompatActivity{
     ArrayAdapter<String> arrayAdapter;
     Book book1;
 
-    String[] bookAuthor = {"Tatiana de Rosnay", "John Boyne", "Markus Zusak", " Eva Schloss", "Wladyslaw Szpilman", "Joel C. Rosenberg", "Heather Morris", "Antonio G. Iturbe", " "};
-    String[] bookNames = {"Se numea Sarah","Băiatul cu pijamale în dungi","Hoțul de cărți","Viața după Auschwitz","Pianistul","Evadare de la Auschwitz","Tatuatorul de la Auschwitz","Bibliotecara de la Auschwitz","Jurnalul Annei Frank"};
-    int[] bookImages = {R.drawable.a1, R.drawable.a2, R.drawable.a3, R.drawable.a4, R.drawable.a5, R.drawable.a6, R.drawable.a7, R.drawable.a8, R.drawable.a9};
+    String[] bookAuthor = {"Tatiana de Rosnay", "John Boyne", "Markus Zusak", " Eva Schloss", "Wladyslaw Szpilman", "Joel C. Rosenberg", "Heather Morris", "Antonio G. Iturbe", " ", "Thomas Keneally"};
+    String[] bookNames = {"Se numea Sarah","Băiatul cu pijamale în dungi","Hoțul de cărți","Viața după Auschwitz","Pianistul","Evadare de la Auschwitz","Tatuatorul de la Auschwitz","Bibliotecara de la Auschwitz","Jurnalul Annei Frank", "Lista lui Schindler"};
+    int[] bookImages = {R.drawable.a1, R.drawable.a2, R.drawable.a3, R.drawable.a4, R.drawable.a5, R.drawable.a6, R.drawable.a7, R.drawable.a8, R.drawable.a9, R.drawable.a91};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -103,6 +103,7 @@ public class MainActivity extends AppCompatActivity{
         courseModelArrayList.add(new CourseModal("Tatuatorul de la Auschwitz - Heather Morris", R.drawable.a7));
         courseModelArrayList.add(new CourseModal("Bibliotecara de la Auschwitz - Antonio G. Iturbe", R.drawable.a8));
         courseModelArrayList.add(new CourseModal("Jurnalul Annei Frank", R.drawable.a9));
+        courseModelArrayList.add(new CourseModal("Lista lui Schindler - Thomas Keneally", R.drawable.a91));
 
         CourseGVAdapter adapter = new CourseGVAdapter(this, courseModelArrayList);
         gridView.setAdapter(adapter);
