@@ -11,10 +11,11 @@
         android:name="androidx.multidex.MultiDexApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="eBook"
+        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
+        <activity android:name=".Books.ViewActivity"></activity>
         <activity android:name=".GridView.GridItemActivity" />
         <activity android:name=".Users.CreareCont">
             <intent-filter>

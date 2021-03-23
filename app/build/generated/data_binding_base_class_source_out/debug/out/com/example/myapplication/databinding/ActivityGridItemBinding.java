@@ -25,10 +25,7 @@ public final class ActivityGridItemBinding implements ViewBinding {
   public final TextView bookAuthor;
 
   @NonNull
-  public final Button button1;
-
-  @NonNull
-  public final Button button2;
+  public final Button btnOpenAssets;
 
   @NonNull
   public final TextView descriptionTxt;
@@ -43,12 +40,11 @@ public final class ActivityGridItemBinding implements ViewBinding {
   public final ScrollView scrollView;
 
   private ActivityGridItemBinding(@NonNull RelativeLayout rootView, @NonNull TextView bookAuthor,
-      @NonNull Button button1, @NonNull Button button2, @NonNull TextView descriptionTxt,
-      @NonNull TextView griddata, @NonNull ImageView imageView, @NonNull ScrollView scrollView) {
+      @NonNull Button btnOpenAssets, @NonNull TextView descriptionTxt, @NonNull TextView griddata,
+      @NonNull ImageView imageView, @NonNull ScrollView scrollView) {
     this.rootView = rootView;
     this.bookAuthor = bookAuthor;
-    this.button1 = button1;
-    this.button2 = button2;
+    this.btnOpenAssets = btnOpenAssets;
     this.descriptionTxt = descriptionTxt;
     this.griddata = griddata;
     this.imageView = imageView;
@@ -88,15 +84,9 @@ public final class ActivityGridItemBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.button1;
-      Button button1 = rootView.findViewById(id);
-      if (button1 == null) {
-        break missingId;
-      }
-
-      id = R.id.button2;
-      Button button2 = rootView.findViewById(id);
-      if (button2 == null) {
+      id = R.id.btn_open_assets;
+      Button btnOpenAssets = rootView.findViewById(id);
+      if (btnOpenAssets == null) {
         break missingId;
       }
 
@@ -124,7 +114,7 @@ public final class ActivityGridItemBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityGridItemBinding((RelativeLayout) rootView, bookAuthor, button1, button2,
+      return new ActivityGridItemBinding((RelativeLayout) rootView, bookAuthor, btnOpenAssets,
           descriptionTxt, griddata, imageView, scrollView);
     }
     String missingId = rootView.getResources().getResourceName(id);

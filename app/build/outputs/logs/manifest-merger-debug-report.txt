@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:2:1-39:12
+ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:2:1-40:12
 MERGED from [androidx.databinding:viewbinding:4.1.3] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\04660f17f9801f421bc58c535d21ad01\jetified-viewbinding-4.1.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\84106d766a8f71f203fb6b971c3d3079\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.3.4] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\cd6ffd8af7f49af3908bae98cc0dae5b\navigation-ui-2.3.4\AndroidManifest.xml:17:1-24:12
@@ -14,6 +14,10 @@ MERGED from [androidx.navigation:navigation-fragment:2.3.4] C:\Users\Ela\.gradle
 MERGED from [com.google.firebase:firebase-auth:20.0.3] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.firebase:firebase-firestore:22.1.1] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\a89de4d57b4caa3e6c5b13e32ff3d3b7\jetified-firebase-firestore-22.1.1\AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.firebase:firebase-database:19.7.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\24ac034c76dfb1b3647cba84ddb1672b\jetified-firebase-database-19.7.0\AndroidManifest.xml:15:1-38:12
+MERGED from [com.github.barteksc:android-pdf-viewer:2.8.2] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\20c75ffac32449a58c334b6cd08ea068\jetified-android-pdf-viewer-2.8.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.barteksc:pdfium-android:1.7.1] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\32bd667dcefbe41c998f7b6581b75054\jetified-pdfium-android-1.7.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\d43ec17db5d741fd4f6cd809fe013547\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\795c777fa42a2b7dd69e6943f1778c9f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\9343bafb14981f23529b908b282099d2\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\7f4c42c1c3c6ebd681e475a59f065589\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\6f8a1c65b62d3d41d59ae57c34d2003d\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -35,12 +39,16 @@ MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Ela\.gradle\cach
 MERGED from [androidx.transition:transition:1.3.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\700ea1fbeae050cd5894c52b78e7664b\transition-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\222e134cba2d349f1e4065f697f9cee3\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\d344556663e01f06659c4b7ee7cd264e\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\b0cf5ff9a9e3bf92de74d76f28de8f48\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\ca289d46f69729b441a09500aa3504f8\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\a08a61d091975000a4dce67a59e2d28a\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\a1ba948683f1cc3fb6b9651269eda2cf\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.3.4] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\2fa47c962240c2d5e7640463f3c72ecf\navigation-runtime-2.3.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\9829eea8ae0f5228bbfaa82ce37718cd\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-common:2.3.4] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\75a8ea0bd18c561ea3b7ff1443c361ac\navigation-common-2.3.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\439966cf1b8cc1f27bb07abb4ba5dfaf\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\6217ae39eb11b529fe17c9fec473abce\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\227b0a1796476d93b382253a71582657\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.3.1] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\0fd693cbeda8be952cfd72e782f62993\core-1.3.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\f814974419152abc412d9d41345c2be3\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\232f4a453ff4ee4dc4d17aca3feda22c\jetified-firebase-components-16.1.0\AndroidManifest.xml:15:1-23:12
@@ -58,25 +66,25 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Ela\.gradle\caches\
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\8275c6f89d23e4cfe8d5dd5efa714638\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\853a63b9d819327d9c70166522d50800\jetified-protolite-well-known-types-17.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\e2a19ef17fabfb1276cb89c4a4487290\jetified-grpc-android-1.28.0\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:2:1-40:12
 	package
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:3:5-40
-		INJECTED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:2:1-39:12
-		INJECTED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:2:1-40:12
+		INJECTED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:2:1-39:12
-		INJECTED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:2:1-40:12
+		INJECTED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.google.firebase:firebase-auth:20.0.3] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:20.0.3] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-firestore:22.1.1] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\a89de4d57b4caa3e6c5b13e32ff3d3b7\jetified-firebase-firestore-22.1.1\AndroidManifest.xml:14:5-67
@@ -84,13 +92,13 @@ MERGED from [com.google.firebase:firebase-firestore:22.1.1] C:\Users\Ela\.gradle
 MERGED from [com.google.firebase:firebase-database:19.7.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\24ac034c76dfb1b3647cba84ddb1672b\jetified-firebase-database-19.7.0\AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-database:19.7.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\24ac034c76dfb1b3647cba84ddb1672b\jetified-firebase-database-19.7.0\AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:6:5-81
+ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:6:5-81
 	android:name
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:6:22-78
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:6:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:7:5-79
+ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:7:5-79
 MERGED from [com.google.firebase:firebase-auth:20.0.3] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-auth:20.0.3] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-firestore:22.1.1] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\a89de4d57b4caa3e6c5b13e32ff3d3b7\jetified-firebase-firestore-22.1.1\AndroidManifest.xml:13:5-79
@@ -100,13 +108,13 @@ MERGED from [com.google.firebase:firebase-database:19.7.0] C:\Users\Ela\.gradle\
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\e2a19ef17fabfb1276cb89c4a4487290\jetified-grpc-android-1.28.0\AndroidManifest.xml:11:5-79
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\e2a19ef17fabfb1276cb89c4a4487290\jetified-grpc-android-1.28.0\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:7:22-76
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:7:22-76
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:8:5-75
+ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:8:5-75
 	android:name
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:8:22-72
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:8:22-72
 application
-ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:10:5-37:19
+ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:10:5-38:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\cbf08dde3da20d56d9ed7b206137cd9a\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\cbf08dde3da20d56d9ed7b206137cd9a\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\006b46906b2f770011761845d9282045\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -136,53 +144,57 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\El
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\0fd693cbeda8be952cfd72e782f62993\core-1.3.1\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:14:9-30
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:14:9-41
 	android:roundIcon
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:15:9-54
 	android:icon
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:13:9-43
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:17:9-51
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:17:9-51
 	android:name
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:11:9-61
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:11:9-61
+activity#com.example.myapplication.GridView.ViewActivity
+ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:18:9-68
+	android:name
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:18:19-56
 activity#com.example.myapplication.GridView.GridItemActivity
-ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:18:9-63
+ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:19:9-63
 	android:name
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:18:19-60
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:19:19-60
 activity#com.example.myapplication.Users.CreareCont
-ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:19:9-25:20
+ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:20:9-26:20
 	android:name
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:19:19-51
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:20:19-51
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:24:27-74
 activity#com.example.myapplication.Users.Autentificare
-ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:26:9-57
+ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:27:9-57
 	android:name
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:26:19-54
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:27:19-54
 activity#com.example.myapplication.MainActivity
-ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:27:9-36:20
+ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:28:9-37:20
 	android:label
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:29:13-34
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:30:13-34
 	android:theme
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:30:13-67
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:31:13-67
 	android:name
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml:28:13-41
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml:29:13-41
 uses-sdk
-INJECTED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:4.1.3] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\04660f17f9801f421bc58c535d21ad01\jetified-viewbinding-4.1.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:4.1.3] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\04660f17f9801f421bc58c535d21ad01\jetified-viewbinding-4.1.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\84106d766a8f71f203fb6b971c3d3079\multidex-2.0.1\AndroidManifest.xml:20:5-43
@@ -203,6 +215,14 @@ MERGED from [com.google.firebase:firebase-firestore:22.1.1] C:\Users\Ela\.gradle
 MERGED from [com.google.firebase:firebase-firestore:22.1.1] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\a89de4d57b4caa3e6c5b13e32ff3d3b7\jetified-firebase-firestore-22.1.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-database:19.7.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\24ac034c76dfb1b3647cba84ddb1672b\jetified-firebase-database-19.7.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database:19.7.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\24ac034c76dfb1b3647cba84ddb1672b\jetified-firebase-database-19.7.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.github.barteksc:android-pdf-viewer:2.8.2] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\20c75ffac32449a58c334b6cd08ea068\jetified-android-pdf-viewer-2.8.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:android-pdf-viewer:2.8.2] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\20c75ffac32449a58c334b6cd08ea068\jetified-android-pdf-viewer-2.8.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.7.1] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\32bd667dcefbe41c998f7b6581b75054\jetified-pdfium-android-1.7.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.7.1] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\32bd667dcefbe41c998f7b6581b75054\jetified-pdfium-android-1.7.1\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\d43ec17db5d741fd4f6cd809fe013547\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\d43ec17db5d741fd4f6cd809fe013547\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\795c777fa42a2b7dd69e6943f1778c9f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\795c777fa42a2b7dd69e6943f1778c9f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\9343bafb14981f23529b908b282099d2\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\9343bafb14981f23529b908b282099d2\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\7f4c42c1c3c6ebd681e475a59f065589\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
@@ -245,6 +265,8 @@ MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Ela\.gradle\cach
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\222e134cba2d349f1e4065f697f9cee3\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\d344556663e01f06659c4b7ee7cd264e\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\d344556663e01f06659c4b7ee7cd264e\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\b0cf5ff9a9e3bf92de74d76f28de8f48\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\b0cf5ff9a9e3bf92de74d76f28de8f48\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\ca289d46f69729b441a09500aa3504f8\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\ca289d46f69729b441a09500aa3504f8\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\a08a61d091975000a4dce67a59e2d28a\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
@@ -257,6 +279,12 @@ MERGED from [androidx.activity:activity:1.1.0] C:\Users\Ela\.gradle\caches\trans
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\9829eea8ae0f5228bbfaa82ce37718cd\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-common:2.3.4] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\75a8ea0bd18c561ea3b7ff1443c361ac\navigation-common-2.3.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-common:2.3.4] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\75a8ea0bd18c561ea3b7ff1443c361ac\navigation-common-2.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\439966cf1b8cc1f27bb07abb4ba5dfaf\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\439966cf1b8cc1f27bb07abb4ba5dfaf\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\6217ae39eb11b529fe17c9fec473abce\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\6217ae39eb11b529fe17c9fec473abce\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\227b0a1796476d93b382253a71582657\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\227b0a1796476d93b382253a71582657\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.3.1] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\0fd693cbeda8be952cfd72e782f62993\core-1.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.3.1] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\0fd693cbeda8be952cfd72e782f62993\core-1.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\f814974419152abc412d9d41345c2be3\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
@@ -291,16 +319,16 @@ MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] C:\Users\Ela
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\853a63b9d819327d9c70166522d50800\jetified-protolite-well-known-types-17.1.1\AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\e2a19ef17fabfb1276cb89c4a4487290\jetified-grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\e2a19ef17fabfb1276cb89c4a4487290\jetified-grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Ela\Desktop\shit\an II\modul III\MyApplication2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ela\Desktop\MyApplication2\app\src\main\AndroidManifest.xml
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:20.0.3] C:\Users\Ela\.gradle\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:27:9-44:20
 	android:excludeFromRecents

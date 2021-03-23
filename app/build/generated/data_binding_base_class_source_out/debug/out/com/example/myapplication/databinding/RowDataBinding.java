@@ -28,10 +28,7 @@ public final class RowDataBinding implements ViewBinding {
   public final TextView bookTitle;
 
   @NonNull
-  public final Button button1;
-
-  @NonNull
-  public final Button button2;
+  public final Button btnOpenAssets;
 
   @NonNull
   public final TextView descriptionTxt;
@@ -46,14 +43,13 @@ public final class RowDataBinding implements ViewBinding {
   public final ScrollView scrollView;
 
   private RowDataBinding(@NonNull RelativeLayout rootView, @NonNull TextView bookAuthor,
-      @NonNull TextView bookTitle, @NonNull Button button1, @NonNull Button button2,
-      @NonNull TextView descriptionTxt, @NonNull RelativeLayout gridviewdata,
-      @NonNull ImageView images, @NonNull ScrollView scrollView) {
+      @NonNull TextView bookTitle, @NonNull Button btnOpenAssets, @NonNull TextView descriptionTxt,
+      @NonNull RelativeLayout gridviewdata, @NonNull ImageView images,
+      @NonNull ScrollView scrollView) {
     this.rootView = rootView;
     this.bookAuthor = bookAuthor;
     this.bookTitle = bookTitle;
-    this.button1 = button1;
-    this.button2 = button2;
+    this.btnOpenAssets = btnOpenAssets;
     this.descriptionTxt = descriptionTxt;
     this.gridviewdata = gridviewdata;
     this.images = images;
@@ -99,15 +95,9 @@ public final class RowDataBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.button1;
-      Button button1 = rootView.findViewById(id);
-      if (button1 == null) {
-        break missingId;
-      }
-
-      id = R.id.button2;
-      Button button2 = rootView.findViewById(id);
-      if (button2 == null) {
+      id = R.id.btn_open_assets;
+      Button btnOpenAssets = rootView.findViewById(id);
+      if (btnOpenAssets == null) {
         break missingId;
       }
 
@@ -135,7 +125,7 @@ public final class RowDataBinding implements ViewBinding {
         break missingId;
       }
 
-      return new RowDataBinding((RelativeLayout) rootView, bookAuthor, bookTitle, button1, button2,
+      return new RowDataBinding((RelativeLayout) rootView, bookAuthor, bookTitle, btnOpenAssets,
           descriptionTxt, gridviewdata, images, scrollView);
     }
     String missingId = rootView.getResources().getResourceName(id);

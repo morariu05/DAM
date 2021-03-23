@@ -20,7 +20,7 @@
 
             <LinearLayout
                 android:orientation="vertical"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
             <ImageView
@@ -37,7 +37,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
                 android:layout_gravity="center"
-                android:text="a1"
                 android:textSize="25sp"
                 android:textStyle="italic"/>
 
@@ -46,7 +45,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="a1"
                 android:textSize="18sp"
                 android:textStyle="italic" />
 
@@ -57,22 +55,10 @@
                 android:layout_marginTop="40dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="5dp"
-                android:text="@string/description_Sarah"
                 android:textSize="20sp" />
 
                 <Button
-                    android:id="@+id/button1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:textColor="#ffffff"
-                    android:layout_marginTop="20dp"
-                    android:text="download pdf"
-                    android:onClick="downloadPDF"/>
-
-                <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/btn_open_assets"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
@@ -80,8 +66,7 @@
                     android:textColor="#ffffff"
                     android:layout_below="@+id/button1"
                     android:layout_marginTop="25dp"
-                    android:text="view pdf"
-                    android:onClick="viewPDF"/>
+                    android:text="Citește cartea"/>
 
             </LinearLayout>
         </ScrollView>
