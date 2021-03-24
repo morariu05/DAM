@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_a8.jpg.flat",
         "source": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\src\\main\\res\\drawable\\a8.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
@@ -22,6 +22,10 @@
     {
         "merged": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_review.png.flat",
+        "source": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\src\\main\\res\\drawable\\review.png"
     },
     {
         "merged": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
@@ -58,6 +62,10 @@
     {
         "merged": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_data.xml.flat",
         "source": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\src\\main\\res\\layout\\row_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background3.jpg.flat",
+        "source": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\src\\main\\res\\drawable\\background3.jpg"
     },
     {
         "merged": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -116,6 +124,10 @@
         "source": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\src\\main\\res\\layout\\activity_autentificare.xml"
     },
     {
+        "merged": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background2.jpg.flat",
+        "source": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\src\\main\\res\\drawable\\background2.jpg"
+    },
+    {
         "merged": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_creare_cont.xml.flat",
         "source": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\src\\main\\res\\layout\\activity_creare_cont.xml"
     },
@@ -144,6 +156,10 @@
         "source": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\src\\main\\res\\drawable\\a1.jpg"
     },
     {
+        "merged": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background4.jpg.flat",
+        "source": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\src\\main\\res\\drawable\\background4.jpg"
+    },
+    {
         "merged": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
         "source": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\src\\main\\res\\layout\\content_main.xml"
     },
@@ -158,5 +174,9 @@
     {
         "merged": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_review.xml.flat",
+        "source": "C:\\Users\\Ela\\Desktop\\MyApplication2\\app\\src\\main\\res\\layout\\activity_review.xml"
     }
 ]

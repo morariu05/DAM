@@ -39,18 +39,18 @@ public final class ActivityAutentificareBinding implements ViewBinding {
   public final TextView parolaObligatorie;
 
   @NonNull
-  public final TextView textView;
-
-  @NonNull
   public final TextView textView4;
 
   @NonNull
   public final TextView textView8;
 
+  @NonNull
+  public final TextView textViewRating;
+
   private ActivityAutentificareBinding(@NonNull ConstraintLayout rootView, @NonNull EditText Email,
       @NonNull Button Loginbutton, @NonNull EditText Parola, @NonNull Button RegisterButton,
       @NonNull TextView emailObligatoriu, @NonNull TextView parolaObligatorie,
-      @NonNull TextView textView, @NonNull TextView textView4, @NonNull TextView textView8) {
+      @NonNull TextView textView4, @NonNull TextView textView8, @NonNull TextView textViewRating) {
     this.rootView = rootView;
     this.Email = Email;
     this.Loginbutton = Loginbutton;
@@ -58,9 +58,9 @@ public final class ActivityAutentificareBinding implements ViewBinding {
     this.RegisterButton = RegisterButton;
     this.emailObligatoriu = emailObligatoriu;
     this.parolaObligatorie = parolaObligatorie;
-    this.textView = textView;
     this.textView4 = textView4;
     this.textView8 = textView8;
+    this.textViewRating = textViewRating;
   }
 
   @Override
@@ -126,12 +126,6 @@ public final class ActivityAutentificareBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView;
-      TextView textView = rootView.findViewById(id);
-      if (textView == null) {
-        break missingId;
-      }
-
       id = R.id.textView4;
       TextView textView4 = rootView.findViewById(id);
       if (textView4 == null) {
@@ -144,9 +138,15 @@ public final class ActivityAutentificareBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView_rating;
+      TextView textViewRating = rootView.findViewById(id);
+      if (textViewRating == null) {
+        break missingId;
+      }
+
       return new ActivityAutentificareBinding((ConstraintLayout) rootView, Email, Loginbutton,
-          Parola, RegisterButton, emailObligatoriu, parolaObligatorie, textView, textView4,
-          textView8);
+          Parola, RegisterButton, emailObligatoriu, parolaObligatorie, textView4, textView8,
+          textViewRating);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

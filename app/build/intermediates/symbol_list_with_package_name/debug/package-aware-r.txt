@@ -1701,6 +1701,9 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable background2
+drawable background3
+drawable background4
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1780,6 +1783,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable review
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1890,7 +1894,9 @@ id bookTitle
 id bottom
 id bounce
 id btn_open_assets
-id button1
+id btn_review
+id button
+id button2
 id buttonCreareCont
 id buttonPanel
 id cache_measures
@@ -1957,6 +1963,7 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id editText
 id edit_query
 id elastic
 id email_obligatoriu
@@ -2116,6 +2123,7 @@ id postLayout
 id progress_circular
 id progress_horizontal
 id radio
+id ratingBar
 id ratio
 id rectangles
 id reverseSawtooth
@@ -2201,7 +2209,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id textView13
 id textView2
 id textView3
@@ -2209,6 +2216,7 @@ id textView4
 id textView6
 id textView8
 id textView9
+id textView_rating
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2315,6 +2323,7 @@ layout activity_autentificare
 layout activity_creare_cont
 layout activity_grid_item
 layout activity_main
+layout activity_review
 layout activity_view
 layout card_item
 layout content_main

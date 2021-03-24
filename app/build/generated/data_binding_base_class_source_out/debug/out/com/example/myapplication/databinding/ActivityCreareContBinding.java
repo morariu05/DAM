@@ -42,9 +42,6 @@ public final class ActivityCreareContBinding implements ViewBinding {
   public final Button buttonCreareCont;
 
   @NonNull
-  public final TextView textView;
-
-  @NonNull
   public final TextView textView13;
 
   @NonNull
@@ -62,12 +59,15 @@ public final class ActivityCreareContBinding implements ViewBinding {
   @NonNull
   public final TextView textView9;
 
+  @NonNull
+  public final TextView textViewRating;
+
   private ActivityCreareContBinding(@NonNull ConstraintLayout rootView, @NonNull EditText Email,
       @NonNull Button Loginbutton, @NonNull EditText Nume, @NonNull EditText Parola,
       @NonNull EditText Prenume, @NonNull EditText Telefon, @NonNull Button buttonCreareCont,
-      @NonNull TextView textView, @NonNull TextView textView13, @NonNull TextView textView2,
-      @NonNull TextView textView3, @NonNull TextView textView6, @NonNull TextView textView8,
-      @NonNull TextView textView9) {
+      @NonNull TextView textView13, @NonNull TextView textView2, @NonNull TextView textView3,
+      @NonNull TextView textView6, @NonNull TextView textView8, @NonNull TextView textView9,
+      @NonNull TextView textViewRating) {
     this.rootView = rootView;
     this.Email = Email;
     this.Loginbutton = Loginbutton;
@@ -76,13 +76,13 @@ public final class ActivityCreareContBinding implements ViewBinding {
     this.Prenume = Prenume;
     this.Telefon = Telefon;
     this.buttonCreareCont = buttonCreareCont;
-    this.textView = textView;
     this.textView13 = textView13;
     this.textView2 = textView2;
     this.textView3 = textView3;
     this.textView6 = textView6;
     this.textView8 = textView8;
     this.textView9 = textView9;
+    this.textViewRating = textViewRating;
   }
 
   @Override
@@ -154,12 +154,6 @@ public final class ActivityCreareContBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView;
-      TextView textView = rootView.findViewById(id);
-      if (textView == null) {
-        break missingId;
-      }
-
       id = R.id.textView13;
       TextView textView13 = rootView.findViewById(id);
       if (textView13 == null) {
@@ -196,9 +190,15 @@ public final class ActivityCreareContBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView_rating;
+      TextView textViewRating = rootView.findViewById(id);
+      if (textViewRating == null) {
+        break missingId;
+      }
+
       return new ActivityCreareContBinding((ConstraintLayout) rootView, Email, Loginbutton, Nume,
-          Parola, Prenume, Telefon, buttonCreareCont, textView, textView13, textView2, textView3,
-          textView6, textView8, textView9);
+          Parola, Prenume, Telefon, buttonCreareCont, textView13, textView2, textView3, textView6,
+          textView8, textView9, textViewRating);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

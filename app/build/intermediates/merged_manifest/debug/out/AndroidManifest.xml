@@ -25,6 +25,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
+        <activity android:name="com.example.myapplication.Srvr.Review" />
         <activity android:name="com.example.myapplication.Books.ViewActivity" />
         <activity android:name="com.example.myapplication.GridView.GridItemActivity" />
         <activity android:name="com.example.myapplication.Users.CreareCont" >

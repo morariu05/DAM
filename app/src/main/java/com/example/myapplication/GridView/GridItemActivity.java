@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import com.example.myapplication.Books.ViewActivity;
 import com.example.myapplication.R;
+import com.example.myapplication.Srvr.Review;
 
 public class GridItemActivity extends AppCompatActivity {
 
@@ -19,7 +20,7 @@ public class GridItemActivity extends AppCompatActivity {
     TextView name;
     TextView author;
     TextView description;
-    Button btn_open_assets;
+    Button btn_open_assets, btn_review;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +32,8 @@ public class GridItemActivity extends AppCompatActivity {
         author = findViewById(R.id.bookAuthor);
         description = findViewById(R.id.description_txt);
         btn_open_assets = findViewById(R.id.btn_open_assets);
-
+        btn_review = findViewById(R.id.btn_review);
+        
         Intent intent = getIntent();
         image.setImageResource(intent.getIntExtra("image", 0));
         name.setText(intent.getStringExtra("name"));
@@ -49,5 +51,15 @@ public class GridItemActivity extends AppCompatActivity {
                 Log.d("n****************", pdf_filename);
             }
         });
+
+        btn_review.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), Review.class));
+            }
+        });
+        
     }
+    
+
 }

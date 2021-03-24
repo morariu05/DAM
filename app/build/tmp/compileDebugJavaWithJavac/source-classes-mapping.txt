@@ -1,43 +1,32 @@
+com/example/myapplication/Srvr/MessageSender.java
+ com.example.myapplication.Srvr.MessageSender
 com/example/myapplication/databinding/ActivityViewBinding.java
  com.example.myapplication.databinding.ActivityViewBinding
 com/example/myapplication/GridView/CourseGVAdapter.java
  com.example.myapplication.GridView.CourseGVAdapter
-com/example/myapplication/databinding/ActivityCreareContBinding.java
- com.example.myapplication.databinding.ActivityCreareContBinding
-com/example/myapplication/databinding/ActivityAutentificareBinding.java
- com.example.myapplication.databinding.ActivityAutentificareBinding
-com/example/myapplication/databinding/ActivityMainBinding.java
- com.example.myapplication.databinding.ActivityMainBinding
-com/example/myapplication/databinding/CardItemBinding.java
- com.example.myapplication.databinding.CardItemBinding
-com/example/myapplication/Users/Autentificare.java
- com.example.myapplication.Users.Autentificare
- com.example.myapplication.Users.Autentificare$1
- com.example.myapplication.Users.Autentificare$1$1
- com.example.myapplication.Users.Autentificare$2
-com/example/myapplication/databinding/RowDataBinding.java
- com.example.myapplication.databinding.RowDataBinding
-com/example/myapplication/GridView/CourseModal.java
- com.example.myapplication.GridView.CourseModal
-com/example/myapplication/databinding/ActivityGridItemBinding.java
- com.example.myapplication.databinding.ActivityGridItemBinding
 com/example/myapplication/Users/CreareCont.java
  com.example.myapplication.Users.CreareCont
  com.example.myapplication.Users.CreareCont$1
  com.example.myapplication.Users.CreareCont$1$1
  com.example.myapplication.Users.CreareCont$1$1$1
  com.example.myapplication.Users.CreareCont$2
-com/example/myapplication/databinding/ContentMainBinding.java
- com.example.myapplication.databinding.ContentMainBinding
-com/example/myapplication/Books/Book.java
- com.example.myapplication.Books.Book
-com/example/myapplication/BuildConfig.java
- com.example.myapplication.BuildConfig
+com/example/myapplication/databinding/ActivityAutentificareBinding.java
+ com.example.myapplication.databinding.ActivityAutentificareBinding
 com/example/myapplication/MainActivity.java
  com.example.myapplication.MainActivity
  com.example.myapplication.MainActivity$1
  com.example.myapplication.MainActivity$1$1
  com.example.myapplication.MainActivity$CustomAdapter
+com/example/myapplication/databinding/CardItemBinding.java
+ com.example.myapplication.databinding.CardItemBinding
+com/example/myapplication/Books/Book.java
+ com.example.myapplication.Books.Book
+com/example/myapplication/databinding/RowDataBinding.java
+ com.example.myapplication.databinding.RowDataBinding
+com/example/myapplication/GridView/CourseModal.java
+ com.example.myapplication.GridView.CourseModal
+com/example/myapplication/databinding/ActivityGridItemBinding.java
+ com.example.myapplication.databinding.ActivityGridItemBinding
 com/example/myapplication/Books/ViewActivity.java
  com.example.myapplication.Books.ViewActivity
  com.example.myapplication.Books.ViewActivity$1
@@ -46,6 +35,25 @@ com/example/myapplication/Books/ViewActivity.java
  com.example.myapplication.Books.ViewActivity$4
  com.example.myapplication.Books.ViewActivity$5
  com.example.myapplication.Books.ViewActivity$6
+com/example/myapplication/databinding/ActivityReviewBinding.java
+ com.example.myapplication.databinding.ActivityReviewBinding
+com/example/myapplication/databinding/ContentMainBinding.java
+ com.example.myapplication.databinding.ContentMainBinding
+com/example/myapplication/Users/Autentificare.java
+ com.example.myapplication.Users.Autentificare
+ com.example.myapplication.Users.Autentificare$1
+ com.example.myapplication.Users.Autentificare$1$1
+ com.example.myapplication.Users.Autentificare$2
+com/example/myapplication/BuildConfig.java
+ com.example.myapplication.BuildConfig
+com/example/myapplication/databinding/ActivityMainBinding.java
+ com.example.myapplication.databinding.ActivityMainBinding
+com/example/myapplication/databinding/ActivityCreareContBinding.java
+ com.example.myapplication.databinding.ActivityCreareContBinding
 com/example/myapplication/GridView/GridItemActivity.java
  com.example.myapplication.GridView.GridItemActivity
  com.example.myapplication.GridView.GridItemActivity$1
+ com.example.myapplication.GridView.GridItemActivity$2
+com/example/myapplication/Srvr/Review.java
+ com.example.myapplication.Srvr.Review
+ com.example.myapplication.Srvr.Review$1

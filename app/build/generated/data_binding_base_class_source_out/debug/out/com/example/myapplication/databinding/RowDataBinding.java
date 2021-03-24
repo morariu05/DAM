@@ -31,6 +31,9 @@ public final class RowDataBinding implements ViewBinding {
   public final Button btnOpenAssets;
 
   @NonNull
+  public final Button btnReview;
+
+  @NonNull
   public final TextView descriptionTxt;
 
   @NonNull
@@ -43,13 +46,14 @@ public final class RowDataBinding implements ViewBinding {
   public final ScrollView scrollView;
 
   private RowDataBinding(@NonNull RelativeLayout rootView, @NonNull TextView bookAuthor,
-      @NonNull TextView bookTitle, @NonNull Button btnOpenAssets, @NonNull TextView descriptionTxt,
-      @NonNull RelativeLayout gridviewdata, @NonNull ImageView images,
-      @NonNull ScrollView scrollView) {
+      @NonNull TextView bookTitle, @NonNull Button btnOpenAssets, @NonNull Button btnReview,
+      @NonNull TextView descriptionTxt, @NonNull RelativeLayout gridviewdata,
+      @NonNull ImageView images, @NonNull ScrollView scrollView) {
     this.rootView = rootView;
     this.bookAuthor = bookAuthor;
     this.bookTitle = bookTitle;
     this.btnOpenAssets = btnOpenAssets;
+    this.btnReview = btnReview;
     this.descriptionTxt = descriptionTxt;
     this.gridviewdata = gridviewdata;
     this.images = images;
@@ -101,6 +105,12 @@ public final class RowDataBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btn_review;
+      Button btnReview = rootView.findViewById(id);
+      if (btnReview == null) {
+        break missingId;
+      }
+
       id = R.id.description_txt;
       TextView descriptionTxt = rootView.findViewById(id);
       if (descriptionTxt == null) {
@@ -126,7 +136,7 @@ public final class RowDataBinding implements ViewBinding {
       }
 
       return new RowDataBinding((RelativeLayout) rootView, bookAuthor, bookTitle, btnOpenAssets,
-          descriptionTxt, gridviewdata, images, scrollView);
+          btnReview, descriptionTxt, gridviewdata, images, scrollView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

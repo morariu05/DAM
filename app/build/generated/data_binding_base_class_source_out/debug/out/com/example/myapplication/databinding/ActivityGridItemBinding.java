@@ -28,6 +28,9 @@ public final class ActivityGridItemBinding implements ViewBinding {
   public final Button btnOpenAssets;
 
   @NonNull
+  public final Button btnReview;
+
+  @NonNull
   public final TextView descriptionTxt;
 
   @NonNull
@@ -40,11 +43,12 @@ public final class ActivityGridItemBinding implements ViewBinding {
   public final ScrollView scrollView;
 
   private ActivityGridItemBinding(@NonNull RelativeLayout rootView, @NonNull TextView bookAuthor,
-      @NonNull Button btnOpenAssets, @NonNull TextView descriptionTxt, @NonNull TextView griddata,
-      @NonNull ImageView imageView, @NonNull ScrollView scrollView) {
+      @NonNull Button btnOpenAssets, @NonNull Button btnReview, @NonNull TextView descriptionTxt,
+      @NonNull TextView griddata, @NonNull ImageView imageView, @NonNull ScrollView scrollView) {
     this.rootView = rootView;
     this.bookAuthor = bookAuthor;
     this.btnOpenAssets = btnOpenAssets;
+    this.btnReview = btnReview;
     this.descriptionTxt = descriptionTxt;
     this.griddata = griddata;
     this.imageView = imageView;
@@ -90,6 +94,12 @@ public final class ActivityGridItemBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btn_review;
+      Button btnReview = rootView.findViewById(id);
+      if (btnReview == null) {
+        break missingId;
+      }
+
       id = R.id.description_txt;
       TextView descriptionTxt = rootView.findViewById(id);
       if (descriptionTxt == null) {
@@ -115,7 +125,7 @@ public final class ActivityGridItemBinding implements ViewBinding {
       }
 
       return new ActivityGridItemBinding((RelativeLayout) rootView, bookAuthor, btnOpenAssets,
-          descriptionTxt, griddata, imageView, scrollView);
+          btnReview, descriptionTxt, griddata, imageView, scrollView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

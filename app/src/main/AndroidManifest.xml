@@ -16,7 +16,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".Books.ViewActivity"></activity>
+        <activity android:name=".Srvr.Review"></activity>
+        <activity android:name=".Books.ViewActivity" />
         <activity android:name=".GridView.GridItemActivity" />
         <activity android:name=".Users.CreareCont">
             <intent-filter>

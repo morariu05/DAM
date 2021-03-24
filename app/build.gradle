@@ -52,4 +52,5 @@ dependencies {
     implementation "androidx.multidex:multidex:2.0.1"
 
     implementation 'com.github.barteksc:android-pdf-viewer:2.8.2' //to read PDF
+    
 }
